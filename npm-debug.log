@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-d' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune starapi
+21 silly loadIdealTree Finishing
+22 silly currentTree starapi
+23 silly idealTree starapi
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 silly generateActionsToTake Finishing
+27 silly diffTrees action count 0
+28 silly decomposeActions action count 0
+29 silly executeActions Starting
+30 silly install executeActions
+31 silly doSerial global-install 0
+32 silly doParallel fetch 0
+33 verbose makeDirectory /home/pivovarov/.npm/_locks creation not in flight; initializing
+34 silly makeDirectory /home/pivovarov/.npm/_locks uid: 1001 gid: 1001
+35 verbose lock using /home/pivovarov/.npm/_locks/staging-1b8f18b5438c7720.lock for /home/pivovarov/Documents/starapi/node_modules/.staging
+36 verbose unlock done using /home/pivovarov/.npm/_locks/staging-1b8f18b5438c7720.lock for /home/pivovarov/Documents/starapi/node_modules/.staging
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 warn enoent ENOENT: no such file or directory, open '/home/pivovarov/Documents/starapi/package.json'
+43 warn starapi No description
+44 warn starapi No repository field.
+45 warn starapi No README data
+46 warn starapi No license field.
+47 verbose stack Error: EACCES: permission denied, mkdir '/home/pivovarov/Documents/starapi/node_modules/.staging'
+48 verbose cwd /home/pivovarov/Documents/starapi
+49 error Linux 4.15.0-51-generic
+50 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-d"
+51 error node v8.10.0
+52 error npm  v3.5.2
+53 error path /home/pivovarov/Documents/starapi/node_modules/.staging
+54 error code EACCES
+55 error errno -13
+56 error syscall mkdir
+57 error Error: EACCES: permission denied, mkdir '/home/pivovarov/Documents/starapi/node_modules/.staging'
+57 error  { Error: EACCES: permission denied, mkdir '/home/pivovarov/Documents/starapi/node_modules/.staging'
+57 error   errno: -13,
+57 error   code: 'EACCES',
+57 error   syscall: 'mkdir',
+57 error   path: '/home/pivovarov/Documents/starapi/node_modules/.staging' }
+58 error Please try running this command again as root/Administrator.
+59 verbose exit [ -13, true ]
